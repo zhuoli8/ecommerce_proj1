@@ -13,4 +13,10 @@ template for ecommerce webstore
 ## NODE:
   -using node v20.1.0
   ref: https://www.youtube.com/watch?v=H91aqUHn8sE&ab_channel=BeyondFireship
+  to compile ts files: npm run build
+  to run node project: node .
+  
+## REACT:
+  ref: https://www.youtube.com/watch?v=SqcY0GlETPk&ab_channel=ProgrammingwithMosh
+  
   
