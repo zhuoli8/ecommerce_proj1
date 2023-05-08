@@ -7,6 +7,21 @@ template for ecommerce webstore
 - using node v20.1.0
 - what to use for database?
 - react front end?
+## Features:
+- pages:
+    - home
+    - product page
+    - about us
+    - login
+    - account
+    - cart
+- footer
+- database:
+    - user account table
+    - product table
+    - order table
+- admin.js admin page
+    
 
 # TECH:
 
