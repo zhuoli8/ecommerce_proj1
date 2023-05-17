@@ -1,10 +1,11 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
+import ResponsiveAppBar from "./components/ResponsiveAppBar";
 
 const Root = () => {
     return (
         <>
-            <div>
+            {/* <div>
                 <h1>Root</h1>
                 <Link to={"home"}>home</Link>
                 <br />
@@ -14,9 +15,13 @@ const Root = () => {
                 <br />
                 <Link to={"prod"}>prod</Link>
                 <br />
-            </div>
+            </div> */}
+            <ResponsiveAppBar />
             {/* Outlet is where child routes are rendered */}
-            <Outlet />
+            {/* pulls content down from behind navbar*/}
+            <div style={{ marginTop: "64px" }}>
+                <Outlet />
+            </div>
         </>
     );
 };
