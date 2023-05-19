@@ -14,7 +14,11 @@ template for ecommerce webstore
 
 -   pages:
     -   home
-    -   product page
+    -   product
+        -   product card:
+            -   image
+            -   product name
+            -   brand name
     -   about us
     -   login
     -   account
@@ -40,5 +44,3 @@ to run node project: node .
 ref: https://www.youtube.com/watch?v=SqcY0GlETPk&ab_channel=ProgrammingwithMosh
 
 ## MUI:
-
-
