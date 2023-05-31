@@ -2,6 +2,14 @@
 
 template for ecommerce webstore
 
+## CURRENT PROGRESS:
+
+-   going to connect database with backend
+-   using https://www.youtube.com/watch?v=w3vs4a03y3I&ab_channel=ArpanNeupane
+-   going to have seperate dir for backend and frontend
+-   remove backend components from frontend
+-   using: https://www.youtube.com/watch?v=qy8PxD3alWw&ab_channel=ColtSteele for setting up backend
+
 ## PLAN:
 
 -   use typescript
@@ -43,4 +51,24 @@ to run node project: node .
 
 ref: https://www.youtube.com/watch?v=SqcY0GlETPk&ab_channel=ProgrammingwithMosh
 
+### notes:
+
+    react hooks:
+        - useState() when the state changes, the ui is updated. the value in the perameter is the initial value. hook functions return a list containing two items, so its best practise to destructure them as [<reactive value>, <setter>]
+
+        - useEffect() takes in a function as a perameter and runs said function when the state changes
+
 ## MUI:
+
+## MYSQL:
+
+https://www.youtube.com/watch?v=i5OKeIgRPEE&ab_channel=thedevlife
+Notes:
+
+## GITHUB:
+
+### useful commands:
+
+git add -u :/ # Stage all modified and deleted files
+git add . # Stage all untracked files
+git reset .gitignore # Unstage the .gitignore file
