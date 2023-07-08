@@ -2,8 +2,20 @@
 
 template for ecommerce webstore
 
-## CURRENT PROGRESS:
+## how to startup project:
 
+    *scripts are in package.json
+    1. startup client
+    2. startup backend
+    3. startup DB
+
+## TODO:
+
+-   display products from database
+
+## PAST PROGRESS:
+
+-   frontend, api, and database are connected
 -   going to connect database with backend
 -   using https://www.youtube.com/watch?v=w3vs4a03y3I&ab_channel=ArpanNeupane
 -   going to have seperate dir for backend and frontend
